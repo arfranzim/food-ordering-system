@@ -5,13 +5,8 @@ import java.util.Objects;
 public abstract class BaseEntity<ID> {
     private ID id;
 
-    public ID getId() {
-        return id;
-    }
-
-    public void setId(ID id) {
-        this.id = id;
-    }
+    public ID getId() { return id; }
+    public void setId(ID id) { this.id = id; }
 
     @Override
     public boolean equals(Object o) {
