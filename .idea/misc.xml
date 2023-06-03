@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/order-service/order-messaging/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/order-domain/order-domain-core/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
       </list>
     </option>
   </component>

@@ -18,7 +18,7 @@
 
     <groupId>com.food.ordering.system</groupId>
     <artifactId>food-ordering-system</artifactId>
-    <version>${project.version}</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
