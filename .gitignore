@@ -36,3 +36,17 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/order-service/order-application/.gitignore
+/order-service/order-container/.gitignore
+/order-service/order-dataaccess/.gitignore
+/order-service/order-domain/order-application-service/.gitignore
+/order-service/order-domain/order-domain-core/.gitignore
+/order-service/order-domain/.gitignore
+/order-service/order-messaging/.gitignore
+/order-service/.gitignore
+/order-service/order-application/src/main/java/com/food/ordering/system/Main.java
+/order-service/order-container/src/main/java/com/food/ordering/system/Main.java
+/order-service/order-dataaccess/src/main/java/com/food/ordering/system/Main.java
+/order-service/order-domain/order-application-service/src/main/java/com/food/ordering/system/Main.java
+/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/Main.java
+/order-service/order-messaging/src/main/java/com/food/ordering/system/Main.java
