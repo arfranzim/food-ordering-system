@@ -7,6 +7,8 @@ import java.util.Objects;
 public class Money {
     private final BigDecimal amount;
 
+    public static final Money ZERO = new Money(BigDecimal.ZERO);
+
     public Money(BigDecimal amount) {
         this.amount = amount;
     }
@@ -19,9 +21,7 @@ public class Money {
 
     public boolean isGreaterThan(Money money) { return this.amount != null && this.amount.compareTo(money.getAmount()) > 0; }
 
-    public Money addMoney(Money money) {
-        return new Money(setScale(this.amount.add(money.getAmount())));
-    }
+    public Money add(Money money) { return new Money(setScale(this.amount.add(money.getAmount()))); }
 
     public Money subtract(Money money) {
         return new Money(setScale(this.amount.subtract(money.getAmount())));
